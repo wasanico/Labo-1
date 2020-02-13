@@ -64,6 +64,6 @@ def integrate(function, lower, upper):
 		raise ValueError
 
 if __name__ == '__main__':
-	print(fact(7))
-	print(roots(1, 6, 1))
-	print(integrate('x**2', -1, 1))
+	print(fact(5))
+	print(roots(1, 0, 1))
+	print(integrate('x**2-1', -1, 1))
